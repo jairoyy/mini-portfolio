@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@500&family=IBM+Plex+Mono:ital@1&display=swap');
+
+
+
+body {
+    font-family: 'Cairo Play', sans-serif,'IBM Plex Mono', monospace;
+;
+    margin: 0;
+    padding: 0;
+    color: #DCD7C9;
+    background-color: #2C3639;
+}
+
+header {
+    background-color: #2C3639;
+    color: #DCD7C9;
+    text-align: center;
+    padding: 2em;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #A27B5C;
+    padding: 1em 0;
+}
+
+nav a {
+    color: #DCD7C9;
+    text-decoration: none;
+    padding: 1em;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #3F4E4F;
+}
+
+section {
+    padding: 3em;
+    text-align: center;
+}
+
+.project {
+    margin-bottom: 2em;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+.resume-list {
+    list-style: none;
+    padding-left: 0;
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+ 
+    
+footer{
+    background-color: #A27B5C;
+    color: #DCD7C9;
+
+}
